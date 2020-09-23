@@ -7,7 +7,7 @@ const order = (props) => {
 
     for (let ingredientName in props.ingredients) {
         ingredients.push(
-            {
+            {   // set up done through terminal
                 name: ingredientName,
                 amount: props.ingredients[ingredientName]
             })
